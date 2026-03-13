@@ -10,6 +10,7 @@ and
 define some untiy_catalog's, schema's and table's
 """
 
+# change through remote repo directly
 log = logger()
 
 env = Enviroment().fetch_enviroment_variable

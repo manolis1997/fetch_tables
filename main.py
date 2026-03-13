@@ -4,8 +4,13 @@ from database.schema import Schema
 from database.unity_catalog import UnityCatalog
 from utils.tables.tables import Tables
 
+"""
+This app fetch an enviroment variable 
+and
+define some untiy_catalog's, schema's and table's
+"""
+
 # change through remote repo directly
-x=1
 log = logger()
 
 env = Enviroment().fetch_enviroment_variable
